@@ -1,0 +1,21 @@
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+/data/
+
+# 仅提交两套上游数据中实际使用的文件及许可证。
+STARD/*
+!STARD/LICENSE
+!STARD/data/
+STARD/data/*
+!STARD/data/corpus.jsonl
+LeCoQA/*
+!LeCoQA/License
+!LeCoQA/data/
+LeCoQA/data/*
+!LeCoQA/data/example/
+LeCoQA/data/example/*
+!LeCoQA/data/example/test.json
